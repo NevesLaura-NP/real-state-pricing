@@ -1,2 +1,2 @@
 # real-state-pricing
-Explorative project on real state pricing
+Explorative data project on real state pricing
