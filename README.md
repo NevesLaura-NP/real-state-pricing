@@ -1,30 +1,24 @@
 # rental-pricing-explore
 
-Credit to the [Data Science Working Group](http://datascience.codeforsanfrancisco.org) for this template. To complete this project, delete all template text (save for the headers) and fill in your own information.
-
-Begin reading `instructions.md` to get started.
+Credit to the [Data Science Working Group](http://datascience.codeforsanfrancisco.org) for this template.
 
 ## Project Intro/Objective
-The purpose of this project is ________. (Describe the main goals of the project and potential civic impact. Limit to a short paragraph, 3-6 Sentences)
+The purpose of this project is to analyse and predict the housing market in Taipei for NotGPT. The data was explored, cleaned and analysed through Linear Regression to predict house prices according to independent variables. With these results we aim to price houses at market value.
 
 ### Methods Used
 * Inferential Statistics
-* Machine Learning
 * Data Visualization
 * Predictive Modeling
-* etc.
 
 ### Technologies
-* R 
 * Python
-* D3
-* PostGres, MySql
 * Pandas, jupyter
-* HTML
-* JavaScript
-* etc. 
+* Matplot, Seaborn
 
 ## Project Description
-(Provide more detailed overview of the project.  Talk a bit about your data sources and what questions and hypothesis you are exploring. What specific data analysis/visualization and modelling work are you using to solve the problem? What blockers and challenges are you facing?  Feel free to number or bullet point things here)
-This project utilized data from a real Excel document created a fictitious institution NotGPT
+On the data_prep folder, the file 01explore.py is responsible for exploring visually the data that was provided through an inside data set collect by the NotGPT client. After looking at the data we could see correlations between home prices, distance to convinience stores, the age of the houses and the distance to public transportation. After cleaning the data set, Linear Regression was used to predict prices. 
+
+The Linear Regrssion with the clean data had a scored set closer to 1 demonstrating less errors, while the raw explored data scored closer to 0 demonstrating that we need to use the clean data for this module. The lower MSE also demonstrates a good match of the data set for the Linear Regression but there is still some room for improvement which can be achieved by more accurate and clean data or through exploring other modules of analysis. 
+
+Observation: Is Hamtoro a reference to Hamtaro?
 
